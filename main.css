@@ -1,0 +1,168 @@
+
+    img,
+  picture,
+  svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .name {
+    font-family: Gabriola, serif;
+    font-weight: normal;
+    line-height: .8;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+  }
+
+
+  .hero {
+    height: 100vh;
+    background-image: url("/Assets/Landscape_001.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-size: 45px;
+    font-family: Gabriola, serif;
+    margin-top: 50px;
+  } 
+
+  a {
+    text-decoration: none;
+    font-family: Instrument Serif, serif;
+  }
+
+  nav {
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100%;
+    background-color: #6cb0ff;
+  }
+
+
+ nav .nav-bar {
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #1f6fca7c;
+    margin: 0 auto;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.logo {
+    position: relative;
+    height: 100%;
+    width: 80px;
+  }
+
+  .nav-bar .nav-links {
+     display: flex;
+    align-items: center;
+  }
+
+  .nav-bar .nav-links li {
+    margin: 0 5px;
+    list-style: none;
+  }
+
+  .nav-links li a {
+    position: relative;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+  }
+
+  h2{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-family: Gabriola, serif;
+  }
+
+  .about-content{
+    padding: 50px;
+  }
+
+  .profile{
+    min-width: 50%;
+  }
+
+  .gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f6fca;
+    height: 400px;
+    margin: 50px;
+  }
+
+  .gallery img{
+    width: 300px;
+    height: auto;
+  }
+
+  .websites {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .links li{
+    list-style: none;
+    font-size: 30px;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .links a:hover{
+    color: #575757;
+  }
+
+  footer {
+    background-color: #1f6fca;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .footer-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+    text-decoration: none;
+    color: #000000;
+  } 
+
+  .footer-links a{
+    text-decoration: none;
+    color: #fff;
+  }
